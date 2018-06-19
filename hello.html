@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="ang.js"></script>
+<script>
+ 
+</script>
+<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body bgcolor="#E6E6FA"> 
+ 
+<h1>GitHub Search API</h1>
+<div id='test1' ng-controller="myCtrl4">
+Search:<input type="text" placeholder='Search...' id="clear" ng-model ="SearchName" onfocus="myFunction(this)">
+       <input type="button" value="search" ng-click="insertData()">
+	<hr></hr> 
+<div id='parent_div_1' ng-if="check">
+<div class ='child_div_1' >
+<button ng-click="myFun()">
+<img ng-src="{{img}}">
+</button>
+ 
+</div>
+<hr>
+<p> 
+Name : {{SearchName}}<br/>
+Country:{{country}}  
+</p>
+</div>
+<div id='parent_div_2' ng-if="bool">
+My Name is {{SearchName}} I am from {{country}} 
+</div>
+</div>
+
+ 
+ 
+</body>
+</html>

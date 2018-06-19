@@ -1,0 +1,23 @@
+#parent_div_1{
+  margin-top: 60px;
+  width: 271px;
+  height: 600px;
+  border: 1px solid white;
+  background-color:#E6E6FA;
+  margin-left: 190px;
+   float: left;
+}
+ #parent_div_2{
+  margin-top: 60px;
+  width: 859px;
+  height: 600px;
+  border: 1px solid white;
+  background-color:#E6E6FA;
+  float: right;
+   margin-left: 100px;
+}
+#test1{
+   background-color:#9494d1;
+   height:30px; 
+}
+ 
