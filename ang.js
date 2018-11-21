@@ -41,6 +41,7 @@ app.controller('myCtrl4',function($scope){
 	}
 	 $scope.bool=false;
 	$scope.myFun=function(){
+		$scope.bool=false;
 		$scope.bool=true;
 	}
 	
